@@ -15,13 +15,13 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-KANNADIGA_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/bc756c9f0f5240ce42160.jpg"
+KANNADIGA_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/e19ba5f20ce63ebe35d55.jpg"
   
 
-DEADLY = "⚡ 𝗗𝗔𝗡𝗚𝗘𝗥𝗢𝗨𝗦 𝗞𝗔𝗡𝗡𝗔𝗗𝗜𝗚𝗔 𝗕𝗢𝗧  ⚡\n\n"
-DEADLY += f" ❤️𝐊𝐀𝐑𝐍𝐀𝐓𝐀𝐊𝐀's 𝟭𝐒𝐓 𝐁𝐎𝐓𝐒𝐏𝐀𝐌❤️\n\n"
+DEADLY = "⚡ 𝗠𝗜𝗦𝗦 𝗤𝗨𝗘𝗘𝗡 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧  ⚡\n\n"
+DEADLY += f"😈 𝗗𝗔𝗡𝗚𝗘𝗥𝗢𝗨𝗦 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 😈\n\n"
 DEADLY += f"╔═══════════════════════╗\n"
-DEADLY += f"║• **ᴄʀᴇᴀᴛᴏʀ** :`ᴘʀᴏғᴇssᴏʀ ᴀɢᴏʀᴀ   `             ║\n"
+DEADLY += f"║• **ᴄʀᴇᴀᴛᴏʀ** :`ᴍɪss ǫᴜᴇᴇɴ ɢɪʀʟ  `             ║\n"
 DEADLY += f"║• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`               ║\n"
 DEADLY += f"║• **ᴋᴀɴɴᴀᴅɪɢᴀ ʙᴏᴛ sᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{kannadigaversion}` ║\n"
 DEADLY += f"╚═══════════════════════╝\n\n"   
@@ -35,7 +35,7 @@ async def alive(event):
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("❤️ ᴄʜᴀɴɴᴇʟ ❤️", "https://t.me/KANNADIGA_BOTS"),
+        Button.url("❤️ ᴄʜᴀɴɴᴇʟ ❤️", "https://t.me/DANGEROUSFIGHTERS"),
         Button.url("💛 sᴜᴘᴘᴏʀᴛ 💛", "https://t.me/NAAN_1_KANNADIGA")
         ],
         [
@@ -88,7 +88,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 𝗬𝗘𝗦 𝗕𝗢𝗦𝗦!\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"🎉 𝗛𝗔𝗔 𝗕𝗛𝗔𝗜 𝗜 𝗔𝗠 𝗥𝗘𝗔𝗗𝗬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 
