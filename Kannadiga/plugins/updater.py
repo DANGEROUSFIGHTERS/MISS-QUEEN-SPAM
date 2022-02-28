@@ -153,7 +153,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(SAM, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "Updated Your Kannadiga Robot Spam Bot successfully sur!!!\n© @MR_PROFESSOR_AGORA"
+        "Updated Your Miss Queen Robot Spam Bot successfully sur!!!\n© @MISS_QUEEN_YT_OP"
     )
     await remote.push(refspec=refspec)
     await SAM.disconnect()
