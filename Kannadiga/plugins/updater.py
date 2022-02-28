@@ -13,14 +13,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/MR-KANNADIGA/ROBOTSPAM"
-BOT_IS_UP_TO_DATE = "**The KANNADIGA Robot Spam Bot** is up-to-date sur."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/DANGEROUSFIGHTERS/MISS-QUEEN-SPAM"
+BOT_IS_UP_TO_DATE = "**The MISSQUEEN Robot Spam Bot** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your Deadly Spam Bot..."
+    "updating your MISSQUEEN Spam Bot..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Kannadiga Robot Spam Bot...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Miss Queen  Robot Spam Bot...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
@@ -41,7 +41,7 @@ RESTARTING_APP = "re-starting heroku application"
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%supdate(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id == OWNER_ID:
-        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗬𝗼𝘂𝗿 𝗞𝗔𝗡𝗡𝗔𝗗𝗜𝗚𝗔 𝗥𝗢𝗕𝗢𝗧 𝗦𝗣𝗔𝗠 𝗕𝗼𝘁__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
+        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗬𝗼𝘂𝗿 𝗠𝗜𝗦𝗦 𝗤𝗨𝗘𝗘𝗡 𝗚𝗜𝗥𝗟 𝗥𝗢𝗕𝗢𝗧 𝗦𝗣𝗔𝗠 𝗕𝗼𝘁__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
